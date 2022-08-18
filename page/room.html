@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styel.css" />
+    <!-- 아이콘 -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;500;700;900&family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/5985f0bd4c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+<body>
+    <!-- 로고 제목 네비 영역 -->
+    <header>
+        <div class="main">
+          <nav class="hd">
+            <a href="../index.html"><h1>Hi Media Pension</h1></a>
+                      <!-- 모달버튼 시작 -->
+          <!-- Button to Open the Modal -->
+      <button type="button" id="btnLogin" class="btn btn-dark Login" data-toggle="modal" data-target="#myModal" style="border-radius: 6px;">
+        Login하러가기
+      </button>      
+      <!-- 모달버튼 끝 -->
+   
+            <div id="menu">
+              <ul>
+                <li>
+                  <a href="../index.html">하이펜션</a>
+                  <ul>
+                    <li><a href="#">소개</a></li>
+                    <li><a href="#">외부풍경</a></li>
+                    <li><a href="#">오시는길</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="../page/room.html">객실</a>
+                  <ul>
+                    <li><a href="#">배치도</a></li>
+                    <li><a href="#">커플룸</a></li>
+                    <li><a href="#">커플룸</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="../page/workshop.html">워크샵</a>
+                <li>
+                  <a href="../page/inpo1.html">커뮤니티</a>
+                  <ul>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">여행후기</a></li>
+                    <li><a href="#">이벤트</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="icon">
+              <a href="https://www.youtube.com/watch?v=Z-cqeGvMG9I"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a href="https://www.instagram.com/himedia.it.mod/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.facebook.com/himedia0262720051/"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="https://open.kakao.com/o/soF9S8ve"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+            </div>
+            <div class="Reservation">
+              <ul>
+                <li>
+                  <a href="#">실시간예약</a>
+                  <ul>
+                    <li><a href="#">객실</a></li>
+                    <li><a href="#">예약안내</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+<!-- 룸 섹션 시작 -->
+    <section>
+        <div class="rwrap">
+            <div class="text">
+                <h4>당신의 객실을 선택하세요</h4>
+                <p>객실정보</p>
+            </div>
+            <div class="rlist">  
+                <div class="room">
+                    <div class="img">
+                    <a href="#"><img src="http://riverheim.com/theme/max/img/room/050403/slide/5fb62229c2089.jpg" alt="룸1"></a>
+                    <div class="info">
+                        <h3 class="name">101&nbsp;(2Bed&nbsp;Room)</h3>
+                        <p class="cate">수영장뷰&nbsp;&amp;&nbsp;히노끼스파</p>
+                    </div>
+                    </div>                
+                </div>
+                <div class="room">
+                    <div class="img">
+                    <a href="#"><img src="http://riverheim.com/theme/max/img/room/050100/slide/5fb610312abbe.jpg" alt="룸2"></a>
+                    <div class="info">
+                        <h3 class="name">102&nbsp;(Studio)</h3>
+                        <p class="cate">수영장뷰&nbsp;&amp;&nbsp;히노끼스파</p>
+                    </div>
+                    </div>                
+                </div>
+                <div class="room">
+                    <div class="img">
+                    <a href="#"><img src="http://riverheim.com/theme/max/img/room/050200/slide/5fb61a19ddbe0.jpg" alt="룸3"></a>
+                    <div class="info">
+                        <h3 class="name">103&nbsp;(Studio)</h3>
+                        <p class="cate">수영장뷰&nbsp;&amp;&nbsp;히노끼스파</p>
+                    </div>
+                    </div>                
+                </div>
+                <div class="room">
+                    <div class="img">
+                    <a href="#"><img src="http://riverheim.com/theme/max/img/room/050101/slide/5fb610f2c66e0.jpg" alt="룸4"></a>
+                    <div class="info">
+                        <h3 class="name">104&nbsp;(Studio)</h3>
+                        <p class="cate">수영장뷰&nbsp;&amp;&nbsp;스파</p>
+                    </div>
+                    </div>                
+                </div>
+                <div class="room">
+                    <div class="img">
+                    <a href="#"><img src="http://riverheim.com/theme/max/img/room/050201/slide/5fb61b69b6a2b.jpg" alt="룸5"></a>
+                    <div class="info">
+                        <h3 class="name">301&nbsp;(1Bed&nbsp;Room)</h3>
+                        <p class="cate">수영장뷰&nbsp;&amp;&nbsp;스파</p>
+                    </div>
+                    </div>                
+                </div>
+                <div class="room">
+                    <div class="img">
+                    <a href="#"><img src="http://riverheim.com/theme/max/img/room/050202/slide/5fb61c9bc9c29.jpg" alt="룸6"></a>
+                    <div class="info">
+                        <h3 class="name">302&nbsp;(Studio)</h3>
+                        <p class="cate">수영장뷰&nbsp;&amp;&nbsp;스파</p>
+                    </div>
+                    </div>                
+                </div>
+                <div class="room">
+                    <div class="img">
+                    <a href="#"><img src="http://riverheim.com/theme/max/img/room/050203/slide/5fb61e10d241f.jpg" alt="룸7"></a>
+                    <div class="info">
+                        <h3 class="name">303&nbsp;(1Bed&nbsp;Room)</h3>
+                        <p class="cate">마운틴뷰&nbsp;&amp;&nbsp;스파</p>
+                    </div>
+                    </div>                
+                </div>
+                <div class="room">
+                    <div class="img">
+                    <a href="#"><img src="http://riverheim.com/theme/max/img/room/050102/slide/5fb6119c3fc68.jpg" alt="룸8"></a>
+                    <div class="info">
+                        <h3 class="name">304&nbsp;(Studio)</h3>
+                        <p class="cate">수영장뷰&nbsp;&amp;&nbsp;스파</p>
+                    </div>
+                    </div>                
+                </div>
+                <div class="room">
+                    <div class="img">
+                    <a href="#"><img src="http://riverheim.com/theme/max/img/room/050402/slide/5fb623c819a2e.jpg" alt="룸9"></a>
+                    <div class="info">
+                        <h3 class="name">303&nbsp;(1Bed&nbsp;Room)</h3>
+                        <p class="cate">수영장뷰&nbsp;&amp;&nbsp;스파</p>
+                    </div>
+                    </div>                
+                </div>
+                <div class="room">
+                    <div class="img">
+                    <a href="#"><img src="http://riverheim.com/theme/max/img/room/050204/slide/5fb620222b951.jpg" alt="룸10"></a>
+                    <div class="info">
+                        <h3 class="name">303&nbsp;(1Bed&nbsp;Room)</h3>
+                        <p class="cate">수영장뷰</p>
+                    </div>
+                    </div>                
+                </div>
+                <div class="room">
+                    <div class="img">
+                    <a href="#"><img src="http://riverheim.com/theme/max/img/room/050401/slide/5fb65ecd79918.jpg" alt="룸11"></a>
+                    <div class="info">
+                        <h3 class="name">501&nbsp;(2Bed&nbsp;Room)</h3>
+                        <p class="cate">마운틴뷰&nbsp;&amp;&nbsp;대형거실</p>
+                    </div>
+                    </div>                
+                </div> 
+                <div class="room">
+                    <div class="img">
+                    <a href="#"><img src="http://riverheim.com/theme/max/img/room/050103/slide/5fb61790b004a.jpg" alt="룸12"></a>
+                    <div class="info">
+                        <h3 class="name">502&nbsp;(Studio)</h3>
+                        <p class="cate">마운틴뷰&nbsp;&amp;&nbsp;스파</p>
+                    </div>
+                    </div>                
+                </div>
+                <div class="room">
+                    <div class="img">
+                    <a href="#"><img src="http://riverheim.com/theme/max/img/room/050205/slide/5fb6212451371.jpg" alt="룸13"></a>
+                    <div class="info">
+                        <h3 class="name">503&nbsp;(Studio)</h3>
+                        <p class="cate">마운틴뷰&nbsp;&amp;&nbsp;히노끼스파</p>
+                    </div>
+                    </div>                
+                </div>
+                <div class="room">
+                    <div class="img">
+                    <a href="#"><img src="http://riverheim.com/theme/max/img/room/050104/slide/5fb6182028c82.jpg" alt="룸14"></a>
+                    <div class="info">
+                        <h3 class="name">504&nbsp;(Studio)</h3>
+                        <p class="cate">마운틴뷰&nbsp;&amp;&nbsp;스파</p>
+                    </div>
+                    </div>                
+                </div>
+                <div class="room">
+                    <div class="img">
+                    <a href="#"><img src="http://riverheim.com/theme/max/img/room/050300/slide/5fb630d1d8e8c.jpg" alt="룸15"></a>
+                    <div class="info">
+                        <h3 class="name">505&nbsp;(2Bed&nbsp;Room)</h3>
+                        <p class="cate">마운틴뷰&nbsp;&amp;&nbsp;실내바베큐장</p>
+                    </div>
+                    </div>                
+                </div>
+                <div class="room">
+                    <div class="img">
+                    <a href="#"><img src="http://riverheim.com/theme/max/img/room/050301/slide/5fb631577f77c.jpg" alt="룸16"></a>
+                    <div class="info">
+                        <h3 class="name">506&nbsp;(Studio)</h3>
+                        <p class="cate">마운틴뷰&nbsp;&amp;&nbsp;실내바베큐장</p>
+                    </div>
+                    </div>                
+                </div>
+                <div class="room">
+                    <div class="img">
+                    <a href="#"><img src="http://riverheim.com/theme/max/img/room/050302/slide/5fb631d1f1929.jpg" alt="룸17"></a>
+                    <div class="info">
+                        <h3 class="name">507&nbsp;(Studio)</h3>
+                        <p class="cate">마운틴뷰&nbsp;&amp;&nbsp;실내바베큐장</p>
+                    </div>
+                    </div>                
+                </div>
+                <div class="room">
+                    <div class="img">
+                    <a href="#"><img src="http://riverheim.com/theme/max/img/room/050400/slide/5de49c2e0604c.jpg" alt="룸18"></a>
+                    <div class="info">
+                        <h3 class="name">605&nbsp;(2Bed&nbsp;Room)</h3>
+                        <p class="cate">독채형복층구조</p>
+                    </div>
+                    </div>                
+                </div>                
+            </div>
+        </div>
+        <div class="rbg">백그라운드</div>
+    </section>
+    <!-- Room 끝 -->
+<!-- footer 시작 -->
+<footer>
+    <div class="wrapicon">
+      <div class="tell">
+        <span>전화걸기</span><br><br>
+        <i class="fa-solid fa-phone-flip"></i>
+      </div>
+      <div class="kakao">
+        <span>카카오톡</span><br><br>
+        <a href="https://open.kakao.com/o/soF9S8ve"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+      </div>
+      <div class="youtube">
+        <span>유투브</span><br><br>
+        <a href="https://www.youtube.com/watch?v=Z-cqeGvMG9I"
+          ><i class="fa-brands fa-youtube"></i
+        ></a>
+      </div>
+      <div class="insta">
+        <span>인스타그램</span><br><br>
+        <a href="https://www.instagram.com/himedia.it.mod/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
+      <div class="faec">
+        <span>페이스북</span><br><br>
+        <a href="https://open.kakao.com/o/soF9S8ve"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+      </div>
+    </div>
+    <div class="wrapinpo">
+      <div class="foottop">
+      <span class="num">031-123-1234 / 031-123-1234 / 010-123-1234</span>
+      <span class="bk"> 계좌 : 3x2-0x41-3x61-x1 (농협 하이펜션)</span>
+        </div>
+        <div class="footrow">
+      <span> 주소 : 경기 가평군 청평면 북한강로 1706-118 </span>
+      <span> 대표자 : 하이펜션</span> 
+      <span>업체명 : 가평 하이펜션</span>
+      <span>사업자번호 : 24x-x4-00x30 </span>
+      <span> 통신판매신고번호 : 제20xx-경기가평-xxx호 </span>
+      <span> 관리자로그인개인정보취급방침예약문의</span>
+      <span>Designed by Redcong</span>
+      <br><br>
+  </div>
+  </div>
+
+    </div>
+  </footer>
+
+  <!-- footer끝 -->
+  <!-- 모달창 로그인 시작 -->
+  <div class="container mt-3">    
+    <!-- Modal -->
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+        
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">로그인 페이지</h4>
+            <button type="button" class="close" data-dismiss="modal">×</button>
+          </div>            
+          <!-- Modal body -->
+          <div class="modal-body">
+            <form>
+              <label for="id">&nbsp;ID&nbsp;</label>
+              <input type="text" name="id" id="id" placeholder="id를 입력해주세요"><br>
+              <label for=pw">PW</label>
+              <input type="text" name="pw" id="pw" placeholder="비밀번호를 입력해주세요"><hr>  
+                  
+            </form>
+          </div>            
+          <!-- Modal footer -->
+          <div class="modal-footer"> 
+            <button type="button" class="btn btn-success" onclick="alert('아직 미구현입니다 ㅠㅠ')"">Login</button>          
+            <button type="button" class="btn btn-danger" data-dismiss="modal">닫기</button>
+          </div>            
+        </div>
+      </div>
+    </div>      
+  </div>
+  <!-- 모달창 로그인 끝 -->
+  
+</body>
+</html>
